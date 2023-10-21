@@ -4,5 +4,5 @@ This homework focuses on controlling each channel (Red, Green, and Blue) of an R
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/RGB%20LED.jpeg?raw=true)
 
-[![A link to a video showcasing functionality](https://youtu.be/4wzaLNyriBM)](https://www.youtube.com/watch?v=4wzaLNyriBM&ab_channel=RuxandraCirstea)
+A link to a video showcasing functionality: https://youtu.be/4wzaLNyriBM?si=iP72ob-rOqtPy4c4
 
