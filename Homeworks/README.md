@@ -6,4 +6,3 @@ This homework focuses on controlling each channel (Red, Green, and Blue) of an R
 
 [![A link to a video showcasing functionality](https://youtu.be/4wzaLNyriBM)](https://www.youtube.com/watch?v=4wzaLNyriBM&ab_channel=RuxandraCirstea)
 
-https://youtu.be/4wzaLNyriBM?si=ikESd5chINVB0YGq
