@@ -11,3 +11,4 @@ This homework focuses on controlling each channel (Red, Green, and Blue) of an R
 
 A link to a video showcasing functionality: https://youtu.be/4wzaLNyriBM?si=iP72ob-rOqtPy4c4
 
+## hw1_RGB_LED_ThreePotentiometer
