@@ -13,3 +13,5 @@ A link to a video showcasing functionality: https://youtu.be/4wzaLNyriBM?si=iP72
 
 ## hw2_Elevator_simulator_wannabe
 This  homework  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. For this task I used 4 LEDs, 3 buttons, 1 buzzer, 4 resistors and wires.
+
+![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Elevator.jpeg?raw=true)
