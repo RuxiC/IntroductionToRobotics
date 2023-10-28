@@ -16,4 +16,4 @@ This  homework  involves  simulating  a  3-floor  elevator  control  system  usi
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Elevator.jpeg?raw=true)
 
-A link to a video showcasing functionality:
+A link to a video showcasing functionality: https://youtu.be/cEtkX6kGO4M?si=T5QoCj9R8C4q_MOO 
