@@ -12,7 +12,8 @@ This homework focuses on controlling each channel (Red, Green, and Blue) of an R
 A link to a video showcasing functionality: https://youtu.be/4wzaLNyriBM?si=iP72ob-rOqtPy4c4
 
 ## hw2_Elevator_simulator_wannabe
-This  homework  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. For this task I used 4 LEDs, 3 buttons, 1 buzzer, 4 resistors and wires.
+This  homework  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. For this task I used 4 LEDs(3 for the floors and 1 for the elevator’s operationalstate), 3 buttons, 1 buzzer, 4 resistors and wires.
+This elevator should work like this: each of the 3 LEDs should correspond to one of the 3 floors, with the LED indicating the current floor illuminated. Furthermore, an additional LED should indicate the operational status of the elevator by blinking while the elevator is in motion and remaining steady when stationary. The system should also feature 3 buttons, each representing the call buttons for the 3 floors. Pressing a button should trigger the elevator to simulate movement towards the selected floor after a brief delay of 2-3 seconds. If the elevator is already at the desired floor, pressing the corresponding button should have no effect. Additionally, with the help of the buzzer, a sound will be heard while the elevator is in motion, and when the elevator reaches the desired floor, a different sound will be heard.
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Elevator.jpeg?raw=true)
 
