@@ -11,4 +11,5 @@ This homework focuses on controlling each channel (Red, Green, and Blue) of an R
 
 A link to a video showcasing functionality: https://youtu.be/4wzaLNyriBM?si=iP72ob-rOqtPy4c4
 
-## hw1_RGB_LED_ThreePotentiometer
+## hw2_Elevator_simulator_wannabe
+This  homework  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. For this task I used 4 LEDs, 3 buttons, 1 buzzer, 4 resistors and wires.
