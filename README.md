@@ -18,3 +18,6 @@ This elevator should work like this: each of the 3 LEDs should correspond to one
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Elevator.jpeg?raw=true)
 
 A link to a video showcasing functionality: https://youtu.be/cEtkX6kGO4M?si=T5QoCj9R8C4q_MOO 
+
+## hw3_7_segment_display_drawing
+This homework is about controlling the position of a segment and 'drawing' on a display using a joystick. The movement between segments is natural, with segments jumping directly from the current position to neighboring ones. The initial position is on the decimal point (DP), which will blink. Using the joystick, you can navigate between neighboring positions following a specific movement pattern. Short button presses toggle the segment's state between ON and OFF. Long presses of the button reset the entire display, turning off all segments and moving the current position back to the decimal point. For this task I used one 7-segment display, 1 joystick, resistors and wires. 
