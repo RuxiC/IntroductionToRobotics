@@ -24,4 +24,4 @@ This homework is about controlling the position of a segment and 'drawing' on a 
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/7_segment.jpeg?raw=true)
 
-A link to a video showcasing functionality: 
+A link to a video showcasing functionality: https://youtu.be/CIR4kEd2AJE
