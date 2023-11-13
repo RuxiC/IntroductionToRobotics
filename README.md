@@ -27,4 +27,5 @@ This homework is about controlling the position of a segment and 'drawing' on a 
 A link to a video showcasing functionality: https://youtu.be/CIR4kEd2AJE
 
 ## hw4_stopwatch_timer
+In this homework I tried to implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality. For this task I used the 4 digit 7 segment display 3 buttons, resistors and wires.
 
