@@ -27,9 +27,9 @@ This homework is about controlling the position of a segment and 'drawing' on a 
 A link to a video showcasing functionality: https://youtu.be/CIR4kEd2AJE
 
 ## hw4_stopwatch_timer
-In this homework I tried to implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality. It starts from "000.0" and offers functions such as start/stop, lap recording, and reset. The lap button, when pressed during a run, stores up to four lap times, and the reset button clears the display and laps during a pause. For this task I used the 4 digit 7 segment display, 3 buttons, resistors and wires.
+In this homework I tried to implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality. It starts from "000.0" and offers functions such as start/stop, lap recording and reset. The lap button, when pressed during a run, stores up to four lap times, and the reset button clears the display and laps during a pause. For this task I used the 4 digit 7 segment display, 3 buttons, resistors and wires.
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/stopwatch_timer.jpeg?raw=true)
 
-A link to a video showcasing functionality: 
+A link to a video showcasing functionality: https://youtu.be/JQ-PNJByb1A
 
