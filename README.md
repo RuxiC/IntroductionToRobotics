@@ -31,5 +31,5 @@ In this homework I tried to implement a stopwatch timer that counts in 10ths of 
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/stopwatch_timer.jpeg?raw=true)
 
-A link to a video showcasing functionality: https://youtu.be/JQ-PNJByb1A
+A link to a video showcasing functionality: https://youtu.be/7BupqULa6hE
 
