@@ -57,11 +57,20 @@ This homework focuses on devoloping a "Smart Environment Monitor and Logger" usi
 **3. System Status** // Check current status and health
 
    **3.1 Current Sensor Readings.** Continuously print sensor readings at the set sampling rate, from all sensors.
+   
    **3.2 Current Sensor Settings.** Displays  the  sampling  rate  and threshold value for all sensors.
+   
    **3.3 Display Logged Data.** Displays last 10 sensor readings for all sensors. 
+   
    **3.2 Back.** Return to Main menu.
+   
 **4. RGB LED Control** // Go to submenu
+
    **4.1 Manual Color Control.** Set the RGB colors manually.
+   
    **4.2 LED: Toggle Automatic ON/OFF.** If  automatic  mode is ON, then the led color should be GREEN when all sensors value do not exceed threshold values (aka no alert) and RED when there is analert (aka ANY sensor value exceeds the threshold). When automatic mode is OFF, then the LED should use the last saved RGB values.
+   
    **4.3 Back** // Return to main menu
+
+![Photo of my setup]
 
