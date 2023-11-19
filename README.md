@@ -35,8 +35,11 @@ A link to a video showcasing functionality: https://youtu.be/7BupqULa6hE
 
 ## hw5_Smart_Environment_Monitor_and_Logger
 This homework focuses on devoloping a "Smart Environment Monitor and Logger" using Arduino. This system will utilize various sensors to gather environmental data, log this data intoEEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu. For this task I used an ultrasonic sensor (HC-SR04), a LDR (Light-Dependent Resistor), a RGB LED, resistors and wires.
+
 **Menu Structure:**
+
 **1. Sensor Settings** // Go to submenu
+
    **1.1 Sensors Sampling Interval.** Here you should be prompted for a value between 1 and 10 seconds. Use this value as a sampling rate for the sensors. You can read a separate value for each or have the same for both.
    **1.2 Ultrasonic Alert Threshold.** Here you should be prompted for a threshold value for the ultrasonic sensor. You can decide if that is the min or max value (you can signal that something is too close). When sensor value exceeds the threshold value,  an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
    **1.3 LDR Alert Threshold.** Here you should be prompted for a threshold value for the LDR sensor. You can decide if that is the min or max value (for example, it could signal that night is coming). When sensor value exceeds the threshold value, an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
