@@ -40,14 +40,22 @@ This homework focuses on devoloping a "Smart Environment Monitor and Logger" usi
 
 **1. Sensor Settings** // Go to submenu
 
-   **1.1 Sensors Sampling Interval.** Here you should be prompted for a value between 1 and 10 seconds. Use this value as a sampling rate for the sensors. You can read a separate value for each or have the same for both.
+   **1.1 Sensors Sampling Interval.** Here you should be prompted for a value between 1 and 10 seconds. Use this value as a sampling rate for the sensors.
+   
    **1.2 Ultrasonic Alert Threshold.** Here you should be prompted for a threshold value for the ultrasonic sensor. You can decide if that is the min or max value (you can signal that something is too close). When sensor value exceeds the threshold value,  an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
+   
    **1.3 LDR Alert Threshold.** Here you should be prompted for a threshold value for the LDR sensor. You can decide if that is the min or max value (for example, it could signal that night is coming). When sensor value exceeds the threshold value, an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
+   
    **1.4 Back** // Return to main menu
+   
 **2. Reset Logger Data.** Should print a message, promting if you to confirm to delete all data. Something like ”are you sure?”, followed by the submenu with YES or NO. In my case, I decided to delete both sensor data at the same time.
+
    **2.1 Yes.**
+   
    **2.2 No.**
+   
 **3. System Status** // Check current status and health
+
    **3.1 Current Sensor Readings.** Continuously print sensor readings at the set sampling rate, from all sensors.
    **3.2 Current Sensor Settings.** Displays  the  sampling  rate  and threshold value for all sensors.
    **3.3 Display Logged Data.** Displays last 10 sensor readings for all sensors. 
