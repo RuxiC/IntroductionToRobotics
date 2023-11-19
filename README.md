@@ -33,3 +33,24 @@ In this homework I tried to implement a stopwatch timer that counts in 10ths of 
 
 A link to a video showcasing functionality: https://youtu.be/7BupqULa6hE
 
+## hw5_Smart_Environment_Monitor_and_Logger
+This homework focuses on devoloping a "Smart Environment Monitor and Logger" using Arduino. This system will utilize various sensors to gather environmental data, log this data intoEEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu. For this task I used an ultrasonic sensor (HC-SR04), a LDR (Light-Dependent Resistor), a RGB LED, resistors and wires.
+**Menu Structure:**
+**1. Sensor Settings** // Go to submenu
+   **1.1 Sensors Sampling Interval.** Here you should be prompted for a value between 1 and 10 seconds. Use this value as a sampling rate for the sensors. You can read a separate value for each or have the same for both.
+   **1.2 Ultrasonic Alert Threshold.** Here you should be prompted for a threshold value for the ultrasonic sensor. You can decide if that is the min or max value (you can signal that something is too close). When sensor value exceeds the threshold value,  an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
+   **1.3 LDR Alert Threshold.** Here you should be prompted for a threshold value for the LDR sensor. You can decide if that is the min or max value (for example, it could signal that night is coming). When sensor value exceeds the threshold value, an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode (see section 4.2), it should also turn red if any of the sensors are outside the value.
+   **1.4 Back** // Return to main menu
+**2. Reset Logger Data.** Should print a message, promting if you to confirm to delete all data. Something like ”are you sure?”, followed by the submenu with YES or NO. In my case, I decided to delete both sensor data at the same time.
+   **2.1 Yes.**
+   **2.2 No.**
+**3. System Status** // Check current status and health
+   **3.1 Current Sensor Readings.** Continuously print sensor readings at the set sampling rate, from all sensors.
+   **3.2 Current Sensor Settings.** Displays  the  sampling  rate  and threshold value for all sensors.
+   **3.3 Display Logged Data.** Displays last 10 sensor readings for all sensors. 
+   **3.2 Back.** Return to Main menu.
+**4. RGB LED Control** // Go to submenu
+   **4.1 Manual Color Control.** Set the RGB colors manually.
+   **4.2 LED: Toggle Automatic ON/OFF.** If  automatic  mode is ON, then the led color should be GREEN when all sensors value do not exceed threshold values (aka no alert) and RED when there is analert (aka ANY sensor value exceeds the threshold). When automatic mode is OFF, then the LED should use the last saved RGB values.
+   **4.3 Back** // Return to main menu
+
