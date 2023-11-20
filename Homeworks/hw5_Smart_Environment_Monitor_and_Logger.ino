@@ -27,9 +27,9 @@ bool inResetLoggerDataConfirmation = false;
 int samplingInterval = 0; 
 
 // varibile pentru vectorii care memoreaza cele 10 valori
-const int bufferSize = 10;
-int ultrasonicReadings[bufferSize];
-int ldrReadings[bufferSize];
+const int size = 10;
+int ultrasonicReadings[size];
+int ldrReadings[size];
 int currentIndex = 0;
 
 void setup() {
@@ -229,7 +229,7 @@ void printSensorReadings() {
 
   ultrasonicReadings[currentIndex] = ultrasonicValue;
   ldrReadings[currentIndex] = ldrValue;
-  currentIndex = (currentIndex + 1) % bufferSize;
+  currentIndex = (currentIndex + 1) % size;
 
   Serial.print("Ultrasonic Sensor Value: ");
   Serial.println(ultrasonicValue);
@@ -276,8 +276,8 @@ void displayCurrentSensorSettings() {
 void displayRecentSensorReadings() {
   Serial.println("Recent Sensor Readings:");
 
-  for (int i = 0; i < bufferSize; i++) {
-    int index = (currentIndex + i) % bufferSize;
+  for (int i = 0; i < size; i++) {
+    int index = (currentIndex + i) % size;
     
     Serial.print("Ultrasonic Reading ");
     Serial.print(i + 1);
@@ -374,7 +374,7 @@ int checkLDRAlert() {
   int ldrValue = analogRead(ldrPin);
   if (ldrValue < ldrThreshold) {
     ldrAlert = true;
-    return 1;  // alerta: lumina scazuta (potential noapte)
+    return 1;  // Alerta: lumina scazuta (potențial noapte)
   } else {
     ldrAlert = false;
     return 0;  // fara alerta
