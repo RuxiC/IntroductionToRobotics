@@ -75,3 +75,7 @@ This homework focuses on devoloping a "Smart Environment Monitor and Logger" usi
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Smart_Environment%20Monitor_and_Logger.jpeg?raw=true)
 
 A link to a video showcasing functionality: https://youtu.be/RYj0fW0AqT4 
+
+## hw5_Mini_Matrix_Game
+
+
