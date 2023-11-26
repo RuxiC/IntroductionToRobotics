@@ -78,4 +78,6 @@ A link to a video showcasing functionality: https://youtu.be/RYj0fW0AqT4
 
 ## hw5_Mini_Matrix_Game
 
+This homework involves developing a small game on the 8x8 matrix. The game has 3 types of elements: player (blinks slowly), bombs (blinks fast), wall (doesn’t blink). The basic idea is that the game generates walls on the map (50% of the map) and then you move around with the player and destroy them. I chose to do it Bomberman style. For this task I used a joystick, 8x8 LED matrix, a MAX7219, one capicitor, resistors and wires.
+
 
