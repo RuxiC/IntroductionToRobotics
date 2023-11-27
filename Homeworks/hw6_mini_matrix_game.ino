@@ -10,7 +10,6 @@ const int buttonPin = 13;
 LedControl lc = LedControl(dinPin, clockPin, loadPin, 1);
 
 byte matrixBrightness = 2;
-
 byte xPos = 7;
 byte yPos = 5;
 byte xLastPos = 0;
