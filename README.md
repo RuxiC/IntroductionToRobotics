@@ -82,4 +82,4 @@ This homework involves developing a small game on the 8x8 matrix. The game has 3
 
 ![Photo of my setup](https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Mini_Matrix_Game.jpeg?raw=true)
 
-A link to a video showcasing functionality:
+A link to a video showcasing functionality: https://youtu.be/Yqv61g9sEN4 
