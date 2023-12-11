@@ -84,7 +84,31 @@ This homework involves developing a small game on the 8x8 matrix. The game has 3
 
 A link to a video showcasing functionality: https://youtu.be/Yqv61g9sEN4 
 
-##hw7_Matrix_Checkpoint
+## hw7_Matrix_Checkpoint
+
+In this homework, I continued the functionality of the mini-matrix game, additionally incorporating an LCD. The brightness of the LCD is controlled by a potentiometer.
+
+I tried to implement the following functionalities for the LCD:
+
+**1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
+
+**2. Menu:**
+  **(a)Start game** - Starts the initial level
+  
+  **(b)Settings**
+  
+  **i.** LCD  brightness  control. Save  value  to  EEPROM  and  load  it upon system start.
+      
+  **ii.** Matrix brightness control
+      
+  **(c)About** - should include details about the creator of the game. At least game name, author and github link or user.
+  
+**3.End Message** - When the game ends, add a message.
+
+**4. During gameplay**
+  **(a)** Show relevant details, that are dynamic: time.  
+  **(b)** Implement an end game.
 
 <img src="https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Matrix_checkpoint_LCD.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
 
+A link to a video showcasing functionality: https://youtu.be/8qW2N9lQ0Ps
