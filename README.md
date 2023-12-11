@@ -85,3 +85,6 @@ This homework involves developing a small game on the 8x8 matrix. The game has 3
 A link to a video showcasing functionality: https://youtu.be/Yqv61g9sEN4 
 
 ##hw7_Matrix_Checkpoint
+
+<img src="https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Matrix_checkpoint_LCD.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
+
