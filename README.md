@@ -83,3 +83,5 @@ This homework involves developing a small game on the 8x8 matrix. The game has 3
 <img src="https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Mini_Matrix_Game.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
 
 A link to a video showcasing functionality: https://youtu.be/Yqv61g9sEN4 
+
+##hw7_Matrix_Checkpoint
