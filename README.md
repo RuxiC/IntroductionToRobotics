@@ -107,7 +107,9 @@ I tried to implement the following functionalities for the LCD:
 **3.End Message** - When the game ends, add a message.
 
 **4. During gameplay**
+
   **(a)** Show relevant details, that are dynamic: time.  
+  
   **(b)** Implement an end game.
 
 <img src="https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/Matrix_checkpoint_LCD.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
