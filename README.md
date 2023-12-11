@@ -84,7 +84,7 @@ This homework involves developing a small game on the 8x8 matrix. The game has 3
 
 A link to a video showcasing functionality: https://youtu.be/Yqv61g9sEN4 
 
-## hw7_Matrix_Checkpoint
+## hw7_Matrix_Checkpoint(LCD)
 
 In this homework, I continued the functionality of the mini-matrix game, additionally incorporating an LCD. The brightness of the LCD is controlled by a potentiometer.
 
