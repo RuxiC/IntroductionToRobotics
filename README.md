@@ -93,6 +93,7 @@ I tried to implement the following functionalities for the LCD:
 **1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
 
 **2. Menu:**
+
   **(a)Start game** - Starts the initial level
   
   **(b)Settings**
